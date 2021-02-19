@@ -1,5 +1,5 @@
-import style from './Instructions.module.css';
-import logo from './logo.png';
+import style from "./Instructions.module.css";
+import logo from "./logo.png";
 
 export function TopInstruction() {
   return (
