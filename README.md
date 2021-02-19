@@ -1,4 +1,4 @@
-## Side Bar in React
+# Side Bar in React
 
 <p align="center"><img src="screenshots/main.png" width="50%"/></p>
 
@@ -80,7 +80,7 @@ of the sidebar, use this:
 
 ---
 
-### How to install
+# How to install
 
 Clone the repo
 ```shell
@@ -98,4 +98,4 @@ Run React, this should open a page in your browser
 npm run start
 ```
 
-_Note:_ if you don't have ndoejs installed go to [this link](https://nodejs.org/en/download/)
+_Note:_ if you don't have `nodejs` installed go to [this link](https://nodejs.org/en/download/)
