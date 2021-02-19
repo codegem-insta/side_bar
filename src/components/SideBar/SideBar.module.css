@@ -1,0 +1,33 @@
+/* nav-menu */
+.SideBar {
+    width: 400px;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    transition: 850ms;
+    background-color: #1c293a;
+    z-index: 3;
+
+    color: white;
+    font-size: 50px;
+}
+
+.SideBar > div {
+    margin-bottom: 50px;
+}
+
+
+.SideBar.Active {
+    left: 0%;
+    transition: 350ms;
+}
+
+/* Menu-bars */
+.Close {
+
+}
