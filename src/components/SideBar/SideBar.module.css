@@ -29,5 +29,17 @@
 
 /* Menu-bars */
 .Close {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    cursor: pointer;
+    transition: 0.2s;
+}
 
+.Close:hover {
+    transform: scale(1.5);
+}
+
+.Close > img {
+    width: 50px;
 }
