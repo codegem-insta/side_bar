@@ -1,4 +1,3 @@
-/* nav-menu */
 .SideBar {
     width: 400px;
     height: 100vh;
@@ -27,12 +26,11 @@
     transition: 350ms;
 }
 
-/* Menu-bars */
 .Close {
     position: absolute;
     top: 30px;
     left: 40px;
-    cursor: pointer;
+    /* cursor: pointer; */
     transition: 0.2s;
 }
 

@@ -1,7 +1,7 @@
 .Main {
     display: flex;
     flex-direction: column;
-    cursor: pointer;
+    /* cursor: pointer; */
     padding: 40px;
 
     position: absolute;
