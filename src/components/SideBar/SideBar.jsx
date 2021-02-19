@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Hamburger } from "../Hamburger/Hamburger";
-import close from './close.svg';
+import close from "./close.svg";
 
 import style from "./SideBar.module.css";
 
