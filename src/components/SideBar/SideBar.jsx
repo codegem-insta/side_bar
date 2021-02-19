@@ -8,20 +8,22 @@ function SideBar() {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleSidebar = () => setIsOpen((prevState) => !prevState);
+  const sideBarClass = isOpen ? `${style.SideBar} ${style.Active}` : style.SideBar;
 
   return (
     <>
       <Hamburger onClick={toggleSidebar} />
 
-      <div
-        className={isOpen ? `${style.SideBar} ${style.Active}` : style.SideBar}
-      >
+      <div className={sideBarClass}>
+        
         <div className={style.Close} onClick={toggleSidebar}>
           <img src={close} alt="close" />
         </div>
+
         <div>Home</div>
         <div>Messages</div>
         <div>Log out</div>
+
       </div>
     </>
   );
