@@ -7,7 +7,7 @@ export function TopInstruction() {
       <p className={style.Arrow}>←</p>
       <img src={logo} alt="logo" />
       <br />
-      React Side Panel
+      React Side Bar
       <br />
       Made easy
       <br />
@@ -16,5 +16,9 @@ export function TopInstruction() {
 }
 
 export function SwipeInstruction() {
-  return <div className={style.InstructionsBottom}>Swipe →</div>;
+  return (
+    <div className={style.InstructionsBottom}>
+      Swipe <div className={style.ArrowSwipe}>→</div>
+    </div>
+  );
 }

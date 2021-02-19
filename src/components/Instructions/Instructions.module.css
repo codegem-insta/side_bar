@@ -13,6 +13,9 @@
 }
 
 .InstructionsBottom {
+    display: flex;
+
+
     color: white;
     font-size: 100px;
     font-weight: 700;
@@ -22,7 +25,7 @@
 }
 
 
-@keyframes example {
+@keyframes moving {
     from {
         transform: translateX(25px);
     }
@@ -32,13 +35,23 @@
     }    
 }
 
+@keyframes moving2 {
+    from {
+        transform: translateX(0px);
+    }
+
+    to {
+        transform: translateX(50px);
+    }    
+}
+
 .Arrow {
     font-size: 90px; 
-    margin-bottom: 0px;
+    animation: moving 0.8s ease-in-out 0s infinite alternate both;
+}
 
-    animation-name: example;
-    animation-duration: 0.8s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-timing-function: ease-in-out;
+.ArrowSwipe {
+    margin-left: 30px;
+    margin-top: 5px;
+    animation: moving2 0.8s ease-in-out 0s infinite alternate both;
 }
