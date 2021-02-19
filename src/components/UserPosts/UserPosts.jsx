@@ -1,6 +1,5 @@
-import react from 'react';
+import { SwipeInstruction, TopInstruction } from '../Instructions/Instructions';
 import style from './UserPosts.module.css';
-import logo from './logo.png';
 
 function allPosts() {
     return [
@@ -37,17 +36,9 @@ function UserPosts() {
 
     return (
         <div className={style.UserPosts}>
-            <div className={style.Instructions}> 
-                <p className={style.Arrow}>←</p>
-                <img src={logo} alt="logo"/><br />
-                React Side Panel<br />
-                Made easy<br />
-            </div>
+            <TopInstruction />
             { content.map(post => <Post key={post.id} post={post} />)}
-
-            <div className={style.InstructionsBottom}> 
-                Swipe →
-            </div>
+            <SwipeInstruction />
         </div>
     );
 }
