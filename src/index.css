@@ -5,9 +5,28 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  /*
+  cursor: none; // Hide cursor
+  overscroll-behavior-y: none; // Disable bounce at the bottom
+  */
+
+  background-color: #0C1117;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Additional styles */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* hide scroll bar by keep functionality */
+/* body::-webkit-scrollbar {
+  display: none; 
+} */
