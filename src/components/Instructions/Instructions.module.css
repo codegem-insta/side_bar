@@ -3,8 +3,8 @@
     font-size: 60px;
     font-weight: 700;
     line-height: 150%;
-    margin-top: 100px;
-    margin-bottom: 400px;
+    padding-top: 100px;
+    padding-bottom: 400px;
 }
 
 .Instructions > img {
@@ -14,14 +14,17 @@
 
 .InstructionsBottom {
     display: flex;
-
+    justify-content: center;
+    align-items: center;
 
     color: white;
     font-size: 100px;
     font-weight: 700;
     line-height: 200%;
-    margin-top: 400px;
-    margin-bottom: 320px;
+
+    /* padding-top: 400px; */
+    /* padding-bottom: 320px; */
+    height: 900px;
 }
 
 

@@ -63,13 +63,17 @@ function UserPosts() {
   const content = allPosts();
 
   return (
-    <div className={style.UserPosts}>
+    <>
       <TopInstruction />
-      {content.map((post) => (
-        <Post key={post.id} post={post} />
-      ))}
+
+      <div className={style.UserPosts}>
+        {content.map((post) => (
+          <Post key={post.id} post={post} />
+        ))}
+      </div>
+
       <SwipeInstruction />
-    </div>
+    </>
   );
 }
 
