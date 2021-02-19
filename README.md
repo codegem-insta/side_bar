@@ -1,6 +1,6 @@
 # Side Bar in React
 
-<p align="center"><img src="screenshots/main.png" width="50%"/></p>
+<p align="center"><img src="screenshots/main.gif" width="50%"/></p>
 
 ### SideBar component
 
@@ -98,4 +98,4 @@ Run React, this should open a page in your browser
 npm run start
 ```
 
-_Note:_ if you don't have `nodejs` installed go to [this link](https://nodejs.org/en/download/)
+**Note:** if you don't have `nodejs` installed go to [this link](https://nodejs.org/en/download/)
