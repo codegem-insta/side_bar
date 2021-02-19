@@ -1,17 +1,17 @@
 .SideBar {
-    width: 400px;
+    position: fixed;
+    top: 0;
+    left: -100%;
+
     height: 100vh;
+    width: 400px;
+    transition: 850ms;
+    z-index: 3;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
-    position: fixed;
-    top: 0;
-    left: -100%;
-    transition: 850ms;
     background-color: #1c293a;
-    z-index: 3;
-
     color: white;
     font-size: 50px;
 }
