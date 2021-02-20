@@ -7,7 +7,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 
   
-  cursor: none;
+  /* cursor: none; */
   /*
   overscroll-behavior-y: none; // Disable bounce at the bottom
   */
